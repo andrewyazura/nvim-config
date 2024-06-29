@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup({
-  ensure_installed = {'lua', 'python', 'rust'},
+  ensure_installed = { 'python', 'rust', 'lua' },
   highlight = {
     enable = true,
   },
@@ -9,8 +9,7 @@ require('nvim-treesitter.configs').setup({
   incremental_selection = {
     enable = true,
     keymaps = {
-      init_selection = 'gnn',
-      scope_incremental = 'grc',
+      init_selection = '<leader>v',
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
     },

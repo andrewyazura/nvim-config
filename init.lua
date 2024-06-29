@@ -6,6 +6,7 @@ require('plugins')
 
 require('config.treesitter')
 require('config.lsp')
+require('config.catppuccin')
 
 -- apply my settings
 require('config.options')
