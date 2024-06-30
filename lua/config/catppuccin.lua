@@ -4,7 +4,7 @@ require('catppuccin').setup({
         light = 'latte',
         dark = 'mocha',
     },
-    transparent_background = true,
+    transparent_background = false,
     default_integrations = true,
     integrations = {
         treesitter = true,
