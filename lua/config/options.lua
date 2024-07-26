@@ -8,3 +8,14 @@ vim.opt.shiftwidth = 2
 
 vim.opt.timeout = true
 vim.opt.timeoutlen = 300
+
+vim.opt.conceallevel = 1
+
+require("catppuccin").setup({
+  background = {
+    light = "latte",
+    dark = "mocha",
+  },
+})
+
+vim.cmd([[colorscheme catppuccin]])
