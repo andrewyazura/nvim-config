@@ -27,7 +27,15 @@ require("nvim-treesitter.configs").setup({
       },
     },
   },
-  textobjects = {},
+  textobjects = {
+    select = {
+      enable = true,
+      keymaps = {
+        ["fo"] = "@function.outer",
+        ["fi"] = "@function.inner",
+      }
+    },
+  },
   playground = {
     enable = true,
   },
