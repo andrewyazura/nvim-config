@@ -3,6 +3,7 @@ require("config.options")
 
 -- plugins
 require("config.cmp")
+require("config.copilot")
 require("config.lsp")
 require("config.harpoon")
 require("config.trouble")
