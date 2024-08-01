@@ -12,6 +12,7 @@ vim.opt.timeoutlen = 300
 vim.opt.conceallevel = 1
 
 require("catppuccin").setup({
+  transparent_background = true,
   background = {
     light = "latte",
     dark = "mocha",
