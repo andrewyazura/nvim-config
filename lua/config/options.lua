@@ -10,6 +10,7 @@ vim.opt.timeout = true
 vim.opt.timeoutlen = 300
 
 vim.opt.conceallevel = 1
+vim.opt.termguicolors = true
 
 require("catppuccin").setup({
   transparent_background = true,
