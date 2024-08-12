@@ -13,6 +13,7 @@ cmp.setup({
   mapping = cmp.mapping.preset.insert({
     ["<C-u>"] = cmp.mapping.scroll_docs(-4),
     ["<C-d>"] = cmp.mapping.scroll_docs(4),
+    ["<Enter>"] = cmp.mapping.confirm({ select = true }),
     ["<C-Space>"] = cmp.mapping.complete(),
     ["<C-c>"] = cmp.mapping.abort(),
     ["<Tab>"] = cmp.mapping.select_next_item(),

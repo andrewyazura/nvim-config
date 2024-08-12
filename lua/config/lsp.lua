@@ -1,6 +1,12 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "ruff", "pyright", "rust_analyzer", "lua_ls" }
+  ensure_installed = {
+    "ruff",
+    "pyright",
+    "rust_analyzer",
+    "lua_ls",
+    "gopls",
+  }
 })
 
 local lspconfig = require("lspconfig")
@@ -23,3 +29,5 @@ lspconfig.lua_ls.setup({
     },
   },
 })
+
+lspconfig.gopls.setup({ capabilities = capabilities })
