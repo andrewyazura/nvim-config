@@ -8,5 +8,10 @@ My first nvim config, so don't expect much.
 - git
 - ripgrep
 - luarocks
-- (optional, but very recommended) nerd font
+- node.js
+    - (I use nvm)
+- go & gopls
+    - run: `go install golang.org/x/tools/gopls@latest`
+    - add to `.zshrc`: `export PATH=$PATH:$HOME/go/bin`
+- nerd font
 
