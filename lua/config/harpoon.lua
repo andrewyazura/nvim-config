@@ -5,42 +5,42 @@ harpoon:setup()
 vim.keymap.set(
   "n", "<leader>ha",
   function() harpoon:list():add() end,
-  { desc = "[h]arpoon [a]dd" }
+  { desc = "add" }
 )
 vim.keymap.set(
   "n", "<leader>hl",
   function() harpoon.ui:toggle_quick_menu(harpoon:list()) end,
-  { desc = "[h]arpoon [l]ist" }
+  { desc = "list" }
 )
 
 vim.keymap.set(
   "n", "<leader>h1",
   function() harpoon:list():select(1) end,
-  { desc = "[h]arpoon [1]" }
+  { desc = "1" }
 )
 vim.keymap.set(
   "n", "<leader>h2",
   function() harpoon:list():select(2) end,
-  { desc = "[h]arpoon [2]" }
+  { desc = "2" }
 )
 vim.keymap.set(
   "n", "<leader>h3",
   function() harpoon:list():select(3) end,
-  { desc = "[h]arpoon [3]" }
+  { desc = "3" }
 )
 vim.keymap.set(
   "n", "<leader>h4",
   function() harpoon:list():select(4) end,
-  { desc = "[h]arpoon [4]" }
+  { desc = "4" }
 )
 
 vim.keymap.set(
   "n", "<leader>hp",
   function() harpoon:list():prev() end,
-  { desc = "[h]arpoon [p]rev" }
+  { desc = "prev" }
 )
 vim.keymap.set(
   "n", "<leader>hn",
   function() harpoon:list():next() end,
-  { desc = "[h]arpoon [n]ext" }
+  { desc = "next" }
 )

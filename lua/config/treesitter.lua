@@ -19,10 +19,14 @@ require("nvim-treesitter.configs").setup({
       enable = true,
       clear_on_cursor_move = true,
     },
+    highlight_current_scope = {
+      -- only highlights functions
+      enable = false,
+    },
     smart_rename = {
       enable = true,
       keymaps = {
-        smart_rename = "<leader>dr",
+        smart_rename = "<leader>R",
       },
     },
     navigation = {
@@ -38,8 +42,8 @@ require("nvim-treesitter.configs").setup({
     select = {
       enable = true,
       keymaps = {
-        ["fo"] = "@function.outer",
-        ["fi"] = "@function.inner",
+        ["af"] = "@function.outer",
+        ["if"] = "@function.inner",
       }
     },
   },
