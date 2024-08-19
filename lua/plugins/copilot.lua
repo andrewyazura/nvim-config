@@ -1,6 +1,6 @@
 return {
-  "zbirenbaum/copilot.lua",
-  lazy = true,
-  cmd = "Copilot",
-  event = "InsertEnter",
+	"zbirenbaum/copilot.lua",
+	lazy = true,
+	cmd = "Copilot",
+	event = "InsertEnter",
 }

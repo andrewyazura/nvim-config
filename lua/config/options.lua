@@ -13,11 +13,11 @@ vim.opt.conceallevel = 1
 vim.opt.termguicolors = true
 
 require("catppuccin").setup({
-  transparent_background = true,
-  background = {
-    light = "latte",
-    dark = "mocha",
-  },
+	transparent_background = true,
+	background = {
+		light = "latte",
+		dark = "mocha",
+	},
 })
 
 vim.cmd([[colorscheme catppuccin]])
