@@ -1,5 +1,7 @@
 # nvim config
 
+> replaced by [nixos-config](https://github.com/andrewyazura/nix-config)
+
 My first nvim config, so don't expect much.
 
 ## Requirements
